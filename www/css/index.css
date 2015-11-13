@@ -261,3 +261,13 @@ body {
     border-radius: 13px;
 }
 
+.superpowers {
+    margin-bottom: 10px !important;
+    background-color: #B7B7B7;
+    color: #333;
+    text-shadow: none;
+    padding: 5px;
+    border-radius: 19px;
+    font-size: 0.8em;
+}
+
