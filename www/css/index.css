@@ -1,0 +1,263 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+body {
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.ui-page-theme-a, .ui-page-theme-a .ui-bar-inherit {
+	background-color: #fff !important;
+    border: none !important;
+}
+
+.ui-field-contain {
+	border: none !important;
+}
+
+.stop-searching-title {
+	text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.stop-searching-text {
+	text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 1.3em;
+}
+
+.facebook-login, .linkedin-login {
+	padding-top: 30px;
+    max-width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.facebook-login {
+	padding-top: 30px;
+}
+
+.linkedin-login {
+	padding-top: 20px;
+}
+
+.terms-text {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.terms-header {
+	text-align: center;	
+}
+
+.next-button {
+	width: 80%;
+    margin: auto;
+    display: block;
+}
+
+.user-picture {
+	display: block;
+	margin: auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.profile-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ui-grid-b {
+	padding-top: 10%;
+}
+.ui-grid-b > .ui-block-a {
+    width: 20% !important;
+}
+
+.ui-grid-b > .ui-block-b {
+    width: 65% !important;
+}
+
+.ui-grid-b > .ui-block-c {
+    width: 15% !important;
+}
+
+.ui-grid-a {
+	padding-top: 5%;
+}
+.ui-grid-a > .ui-block-a {
+    width: 25% !important;
+}
+
+.ui-grid-a a > .ui-block-b {
+    width: 75% !important;
+    display: -webkit-inline-box;
+}
+
+.number-ball {
+	max-width: 80%;
+}
+
+.number-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.work-image {
+	max-width: 80%;
+	float: right;
+}
+
+.work-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    color: #333;
+    text-shadow: none;
+}
+
+.work-checkmark {
+	max-width:85%; 
+	max-width: 30px; 
+	padding-left: 10px;
+}
+
+.weekday {
+    background-color: #979797;
+    color: #4A4A4A;
+    margin-top: 10px !important;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: -webkit-box;
+    width: 95%;
+    height: 78px;
+    margin: auto;
+}
+.weekday a {
+    background-color: inherit;
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.weekday-active {
+    background-color: #F77106;
+    color: #000;
+}
+
+.weekday-name {
+    font-size: 55px;
+    color: inherit;
+    margin: 0px;
+    text-decoration: none;
+    text-shadow: none;
+    width: 58px;
+    text-align: center;
+}
+
+.timeofday {
+    width: 73px !important;
+    height: 50% !important;
+    margin: .7em 0;
+    display: table;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ddd;
+    border-radius: .3125em;
+}
+
+.timeofday:focus {
+    border-color: #ddd;
+}
+
+.first-timeslot {
+    margin-left: 10%;
+}
+
+.to-text {
+    padding: 0.5em 5px 0px 5px;
+    color: inherit;
+    text-shadow: none;
+}
+
+.next-steps {
+    padding: 0px;
+}
+
+.next-step {
+    padding-top: 0px;
+    display: -webkit-box;
+}
+
+.next-step-a, .next-step-c {
+    width: 45%;
+}
+
+.next-step-b {
+    width: 10%;
+    text-align: center;
+}
+
+.next-step-a p {
+    color: #4A4A4A;
+    font-weight: bold;
+}
+
+.next-step-c p {
+    color: #150168;
+    font-weight: bold;
+}
+
+.whatsnext-profile {
+    width: 60%;
+    margin: auto;
+}
+
+.profile-item {
+    display: -webkit-box;
+    width: 100%;
+    margin:auto;
+    padding-top: 1em;
+}
+
+.profile-item-a {
+    width: 15%;
+    text-align: center;
+}
+
+.profile-item-b {
+    width: 85%;
+}
+
+.profile-item-b a {
+    color: #000 !important;
+    font-weight: normal !important;
+    font-size: 0.7em;
+    margin-bottom: 0.6em;
+}
+
+.profile-item-b p, h4 {
+    margin-top: 0.3em;
+    margin-bottom: 0.6em;
+    font-size: 0.7em;
+}
+
+.profile-item-b iframe {
+    display: block;
+    width: 100%;
+}
+
+.daily-availability {
+    margin-bottom: 10px !important;
+}
+
+.daily-availability span{
+    background-color: #CC6615;
+    color: #fff;
+    text-shadow: none;
+    padding: 4px;
+    border-radius: 13px;
+}
+

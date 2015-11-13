@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme.css" />
+        <title>inspHIRE</title>
+    </head>
+    <body>
+        <div class="app">
+            <div data-role="page" id="home">
+
+                <div data-role="header">
+                    <h1>inspHIRE</h1>
+                </div><!-- /header -->
+
+                <div data-role="content">  
+                    <h1 class="stop-searching-title">Stop searching</h1> 
+                    <p class="stop-searching-text">Start engaging with employers offering aggressive student debt repayment options</p>
+                    <a href="#terms" data-transition="slide"><img class="facebook-login" src="img/sign-up-facebook.png"></a>
+                    <img class="linkedin-login" src="img/sign-up-linkedin.png">
+                </div><!-- /content -->
+
+                <!--<div data-role="popup" id="popupdialog" data-overlay-theme="a" data-theme="c" data-dismissable="false" style="max-width:400px;" class="ui-corner-all">
+                    <div data-role="header">
+                        <h1>Add channel</h1>
+                    </div><!-- /header --
+                    <div data-role="content" data-theme="d" class="ui-corner-bottom ui-content"> 
+                        <h3 class="ui-title">Please enter a channel name</h3>   
+                        <input type="text" id="channelname" placeholder="Channel name">
+                        <a href="#" id="channelBtnCancel" data-role="button" data-inline="true" data-rel="back" data-theme="c">Cancel</a>
+                        <a href="#" id="channelBtnGo" data-role="button" data-inline="true" data-rel="back" data-theme="b" data-transition="flow">Go</a>
+                    </div><!-- /content --
+                </div>-->
+                
+            </div><!-- /page -->
+
+            <div data-role="page" id="terms">
+
+                <div data-role="header">
+                    <h1>inspHIRE</h1>
+                </div><!-- /header -->
+
+                <div data-role="content">   
+                    <h4 class="terms-text terms-header">Terms & Conditions</h4>
+                    <p class="terms-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p class="terms-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+                    <h4 class="terms-text terms-header">Privacy Policy</h4>
+                    <p class="terms-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div data-role="fieldcontain" class="ui-hide-label">
+                        <fieldset data-role="controlgroup">
+                           <legend>Agree to the terms:</legend>
+                           <input type="checkbox" name="checkbox-agree" id="checkbox-agree" class="custom" />
+                           <label for="checkbox-agree">I agree</label>
+                        </fieldset>
+                    </div>
+                    <a href="#profile" data-transition="slide"><img src="img/next.png" class="next-button" id="terms-next"></a>
+                </div><!-- /content -->
+                
+            </div><!-- /page -->
+
+            <div data-role="page" id="profile">
+
+                <div data-role="header">
+                    <h1>inspHIRE</h1>
+                </div><!-- /header -->
+
+                <div data-role="content">   
+                    <img src="img/user-picture.png" class="user-picture">
+                    <div data-role="fieldcontain" class="ui-hide-label">
+                        <input type="text" name="first-name" id="first-name" value="Daniel" placeholder="First name"/>
+                        <input type="text" name="last-name" id="last-name" value="Martines" placeholder="Last name"/>
+                        <input type="email" name="email" id="email" value="test@test.com" placeholder="Email"/>
+                        <select name="stem-focus" id="stem-focus">
+                           <option value="">Select focus area</option>
+                           <option value="science">Science</option>
+                           <option value="technology">Technology</option>
+                           <option value="engineering">Engineering</option>
+                           <option value="math">Math</option>
+                        </select>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <fieldset data-role="controlgroup">
+                            <legend>Select your debt range</legend>
+                                <input type="radio" name="debt-range" id="debt1" value="< $10k" />
+                                <label for="debt1">< $10k</label>
+
+                                <input type="radio" name="debt-range" id="debt2" value="$10k to 20k" />
+                                <label for="debt2">$10k to 20k</label>
+
+                                <input type="radio" name="debt-range" id="debt3" value="$20k to 35k" />
+                                <label for="debt3">$20k to 35k</label>
+
+                                <input type="radio" name="debt-range" id="debt4" value="$35k to 50k" />
+                                <label for="debt4">$35k to 50k</label>
+
+                                <input type="radio" name="debt-range" id="debt5" value="> $50k" />
+                                <label for="debt5">> $50k</label>
+                        </fieldset>
+                    </div>
+                    <a href="#threesteps" data-transition="slide"><img src="img/next.png" class="next-button"></a>
+                </div><!-- /content -->
+                
+            </div><!-- /page -->
+
+            <div data-role="page" id="threesteps">
+
+                <div data-role="header">
+                    <h1>inspHIRE</h1>
+                </div><!-- /header -->
+
+                <div data-role="content">
+
+                    <h4 class="center">Two more steps to go!</h4>
+                    <div class="ui-grid-b" style="padding-top: 12%;">
+                        <div class="ui-block-a"><img class="number-ball" src="img/one-ball.png"></div>
+                        <div class="ui-block-b">
+                            <h3 class="number-text">Create profile</h3>
+                            <p class="number-text" style="font-size: 0.8em;">Showcase your skills, education, and experience</p>
+                        </div>
+                        <div class="ui-block-c"><img src="img/check-mark.png" style="max-width:85%;"></div>
+                    </div><!-- /grid-b -->
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a"><img class="number-ball" src="img/two-ball.png"></div>
+                        <div class="ui-block-b">
+                            <h3 class="number-text">Engage employers</h3>
+                            <p class="number-text" style="font-size: 0.8em;">Share your availability and preferred method of contact</p>
+                        </div>
+                        <div class="ui-block-c">&nbsp;</div>
+                    </div><!-- /grid-b -->
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a"><img class="number-ball" src="img/three-ball.png"></div>
+                        <div class="ui-block-b">
+                            <h3 class="number-text">Take to next level</h3>
+                            <p class="number-text" style="font-size: 0.8em;">Create a video, list favorite problem sets - show who you are!</p>
+                        </div>
+                        <div class="ui-block-c">&nbsp;</div>
+                    </div><!-- /grid-b -->
+
+                    <a href="#typeofwork" data-transition="slide"><img src="img/next.png" class="next-button" style="position: absolute; bottom: 15px; left: 10%; right: 10%;"></a>
+                </div><!-- /content -->
+                
+            </div><!-- /page -->
+
+            <div data-role="page" id="typeofwork">
+
+                <div data-role="header">
+                    <h1>inspHIRE</h1>
+                </div><!-- /header -->
+
+                <div data-role="content">
+
+                    <h4 class="center">What's next for you?</h4>
+                    <div class="ui-grid-a" style="padding-top: 12%;">
+                        <a href="#" id="fulltime-link">
+                        <div class="ui-block-a"><img class="work-image" id="rooster" src="img/rooster.png"></div>
+                        <div class="ui-block-b">
+                            <h3 class="work-text" id="fulltime-text" style="padding-top: 20px;">Full time gig</h3>
+                            <img src="img/check-mark.png" id="fulltime-check" class="work-checkmark" style="padding-top: 20px;">
+                        </div>
+                        </a>
+                    </div><!-- /grid-b -->
+                    <div class="ui-grid-a">
+                        <a href="#" id="freelance-link">
+                        <div class="ui-block-a"><img class="work-image" id="coffee" src="img/coffee.png"></div>
+                        <div class="ui-block-b">
+                            <h3 class="work-text" id="freelance-text" style="padding-top: 30px;">Freelance</h3>
+                            <img src="img/check-mark.png" id="freelance-check" class="work-checkmark" style="padding-top: 30px;">
+                        </div>
+                        </a>
+                    </div><!-- /grid-b -->
+                    <div class="ui-grid-a">
+                        <a href="#" id="internship-link">
+                        <div class="ui-block-a"><img class="work-image" id="lab" src="img/lab.png"></div>
+                        <div class="ui-block-b">
+                            <h3 class="work-text" id="internship-text" style="padding-top: 25px;">Internship</h3>
+                            <img src="img/check-mark.png" id="internship-check" class="work-checkmark" style="padding-top: 25px;">
+                        </div>
+                        </a>
+                    </div><!-- /grid-b -->
+
+                    <a href="#availability" data-transition="slide"><img src="img/next.png" class="next-button" style="position: absolute; bottom: 15px; left: 10%; right: 10%;"></a>
+                </div><!-- /content -->
+                
+            </div><!-- /page -->
+
+            <div data-role="page" id="availability">
+
+                <div data-role="header">
+                    <h1>inspHIRE</h1>
+                </div><!-- /header -->
+
+                <div data-role="content">
+
+                    <h4 class="center">What's your avalability?</h4>
+
+                    <div class="weekday" id="monday-box">
+                        <a href="#" id="monday">
+                            <p class="weekday-name">M</p>
+                        </a>
+                        <input type="text" id="monday-1" class="timeofday first-timeslot" data-role="none" placeholder="e.g. 10am">
+                        <p class="to-text">to</p>
+                        <input type="text" id="monday-2" class="timeofday" data-role="none" placeholder="e.g. 2pm"></input>
+                    </div>
+                    <div class="weekday" id="tuesday-box">
+                        <a href="#" id="tuesday">
+                            <p class="weekday-name">T</p>
+                        </a>
+                        <input type="text" id="tuesday-1" class="timeofday first-timeslot" data-role="none" placeholder="e.g. 10am">
+                        <p class="to-text">to</p>
+                        <input type="text" id="tuesday-2" class="timeofday" data-role="none" placeholder="e.g. 2pm"></input>
+                    </div>
+                    <div class="weekday" id="wednesday-box">
+                        <a href="#" id="wednesday">
+                            <p class="weekday-name">W</p>
+                        </a>
+                        <input type="text" id="wednesday-1" class="timeofday first-timeslot" data-role="none" placeholder="e.g. 10am">
+                        <p class="to-text">to</p>
+                        <input type="text" id="wednesday-2" class="timeofday" data-role="none" placeholder="e.g. 2pm"></input>
+                    </div>
+                    <div class="weekday" id="thursday-box">
+                        <a href="#" id="thursday">
+                            <p class="weekday-name">T</p>
+                        </a>
+                        <input type="text" id="thursday-1" class="timeofday first-timeslot" data-role="none" placeholder="e.g. 10am">
+                        <p class="to-text">to</p>
+                        <input type="text" id="thursday-2" class="timeofday" data-role="none" placeholder="e.g. 2pm"></input>
+                    </div>
+                    <div class="weekday" id="friday-box">
+                        <a href="#" id="friday">
+                            <p class="weekday-name">F</p>
+                        </a>
+                        <input type="text" id="friday-1" class="timeofday first-timeslot" data-role="none" placeholder="e.g. 10am">
+                        <p class="to-text">to</p>
+                        <input type="text" id="friday-2" class="timeofday" data-role="none" placeholder="e.g. 2pm"></input>
+                    </div>
+
+                    <a href="#almostdone" data-transition="slide"><img src="img/next.png" class="next-button" style="padding-top: 20px" ></a>
+                </div><!-- /content -->
+                
+            </div><!-- /page -->
+
+            <div data-role="page" id="almostdone">
+
+                <div data-role="header">
+                    <h1>inspHIRE</h1>
+                </div><!-- /header -->
+
+                <div data-role="content">
+
+                    <h1 class="stop-searching-title" style="padding-bottom: 0px;">Yay!</h1> 
+                    <h1 class="stop-searching-title" style="margin-top: 0px;">You’re almost done</h1> 
+                    <p class="stop-searching-text" style="margin-bottom: 0px;">Differentiate yourself. </p>
+                    <p class="stop-searching-text"> Celebrate your achievements. </p>
+                    <div class="next-steps">
+                        <div class="next-step">
+                            <div class="next-step-a">
+                                <p>Introduce yourself</p>
+                                <img src="img/video-icons.png" style="max-width: 100%;">
+                            </div>
+                            <div class="next-step-b"><img src="img/triangle.png"></div>
+                            <div class="next-step-c">
+                                <p>Students with videos are contacted 60% more often</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next-steps">
+                        <div class="next-step">
+                            <div class="next-step-a">
+                                <p>Share your genious work</p>
+                                <img src="img/genious-work-icons.png" style="max-width: 100%; ">
+                            </div>
+                            <div class="next-step-b"><img src="img/triangle.png"></div>
+                            <div class="next-step-c">
+                                <p>Employers like to see your work and ideas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="profile.html" data-transition="slide"><img src="img/go-to-profile.png" class="next-button" style="padding-top: 20px;"></a>
+                </div><!-- /content -->
+                
+            </div><!-- /page -->
+
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>
